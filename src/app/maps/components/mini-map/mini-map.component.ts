@@ -1,5 +1,5 @@
-import {AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild} from '@angular/core';
-import {LngLat, Map, Marker} from "mapbox-gl";
+import {AfterViewInit, Component, ElementRef, Input, ViewChild} from '@angular/core';
+import { Map, Marker} from "mapbox-gl";
 
 @Component({
   selector: 'maps-mini-map',

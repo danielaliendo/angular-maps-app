@@ -26,13 +26,6 @@ interface PlainMarker {
         right: 20px;
       }
 
-      .list-group {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        cursor: pointer;
-      }
-
       li {
         user-select: none;
         -webkit-user-select: none;

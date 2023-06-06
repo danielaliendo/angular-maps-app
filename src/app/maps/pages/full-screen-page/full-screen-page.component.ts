@@ -21,7 +21,8 @@ export class FullScreenPageComponent implements AfterViewInit {
   ngAfterViewInit(): void {
 
     if (!this.mapRef?.nativeElement) return
-    const map = new Map({
+
+    new Map({
       container: this.mapRef?.nativeElement, // container ID
       style: 'https://api.maptiler.com/maps/basic-v2/style.json?key=isuv7z5lVm7U4p8srIAd', // style URL
       center: [-74.5, 40], // starting position [lng, lat]
